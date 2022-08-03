@@ -10,7 +10,7 @@
 #include <vector>
 #include <unordered_map>
 
-#include "fst/fstlib.h"
+#include </home/wenet2/runtime/server/x86/fc_base/openfst-build/src/include/fst/fstlib.h>
 #include "utils/paths.h"
 #include "utils/colors.h"
 
