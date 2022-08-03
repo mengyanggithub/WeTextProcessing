@@ -7,7 +7,7 @@ project(wenet_text_processing VERSION 0.1)
 # When using wenet-text-processibng as a sub-project, we should set THRAX=OFF
 # since libthrax is not a dependence to libtext_processor and we assume libfst
 # has been built in top-level project.
-option(THRAX "whether to build thrax" OFF)
+option(THRAX "whether to build thrax" ON)
 
 if(THRAX)
   # include_directories() will be called in the root CMakeLists.txt if THRAX=OFF,
